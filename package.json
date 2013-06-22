@@ -1,10 +1,37 @@
 {
     "main": "app.js",
-    "version": "0.0.1",
+    "name": "baeredishttp",
+    "version": "0.0.2",
+    "description": "bae redis http client",
+    "author": {
+        "name": "youxiachai",
+        "mail": "youxiachai@gmail.com"
+    },
     "dependencies": {
         "express": "*",
         "ejs": "*",
-        "redis": "*"
+        "redis": "*",
+        "commander": "*"
+    },
+
+    "keywords": [
+        "bae",
+        "redis"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/youxiachai/BaeRedisRestful"
+    },
+    "bin": {
+        "baeredis": "./bin/baeredis"
+    },
+    "engines": {
+        "node": "*"
+    },
+    "readmeFilename": "readme.md",
+    "bugs": {
+        "url": "https://github.com/youxiachai/BaeRedisRestful/issues"
     }
+
 }
 
