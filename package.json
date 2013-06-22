@@ -1,0 +1,10 @@
+{
+    "main": "app.js",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "*",
+        "ejs": "*",
+        "redis": "*"
+    }
+}
+

@@ -1,0 +1,5 @@
+/node_modules/ejs
+/node_modules/.bin
+/node_modules/express
+/node_modules/redis
+/.idea
